@@ -1,0 +1,44 @@
+{
+  "name": "ohos-node-doctor",
+  "version": "0.1.0",
+  "description": "本机体检鸿蒙（HarmonyOS/OpenHarmony）App 内嵌 Node.js 运行时的硬约束：真共享库、依赖齐备、SIGSYS shim、UI 线程、argv 哨兵、打包配置",
+  "type": "module",
+  "bin": {
+    "ohos-node-doctor": "./ohos-node-doctor.mjs"
+  },
+  "main": "./ohos-node-doctor.mjs",
+  "files": [
+    "ohos-node-doctor.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node ohos-node-doctor.mjs",
+    "selftest": "node selftest.mjs"
+  },
+  "keywords": [
+    "harmonyos",
+    "openharmony",
+    "ohos",
+    "nodejs",
+    "libnode",
+    "dlopen",
+    "napi",
+    "arkts",
+    "elf",
+    "diagnostics",
+    "doctor"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lzzhij/ohos-node-doctor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lzzhij/ohos-node-doctor/issues"
+  },
+  "homepage": "https://github.com/lzzhij/ohos-node-doctor#readme"
+}
