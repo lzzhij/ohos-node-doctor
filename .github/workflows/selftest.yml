@@ -26,5 +26,11 @@ jobs:
       - name: 零依赖自检（现场构造样本，断言工具必须报出预期结论）
         run: node selftest.mjs
 
+      - name: 评估工具自检（坏样本必须被查出；JSON 结构正确）
+        run: node assess-selftest.mjs
+
       - name: 语法检查
-        run: node --check ohos-node-doctor.mjs
+        run: |
+          node --check ohos-node-doctor.mjs
+          node --check assess.mjs
+          node --check assess-selftest.mjs
