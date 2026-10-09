@@ -69,6 +69,15 @@ npx ohos-node-doctor <你的鸿蒙工程根目录>
 
 ---
 
+## 卡住了 / 想找人帮忙
+
+- **免费自助**：本工具 + 上面的笔记，覆盖 12 类已解问题
+- **公开提问**：[Issues](https://github.com/lzzhij/ohos-node-doctor/issues)
+  （请附本工具的完整输出与**症状原文** —— 原始输出能省三轮来回）
+- **付费支持**（远程诊断 / 集成交付 / 上架支持）：见 [CONTACT.md](CONTACT.md)
+
+---
+
 ## 用法
 
 ```bash
